@@ -1,3 +1,3 @@
 # SA Scripts
 
-This is a temporary repo for example of useful SA Powershell scripts
+This is a temporary repo for examples of useful SA Powershell scripts
