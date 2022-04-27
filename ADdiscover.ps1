@@ -228,7 +228,7 @@ klist tickets
 #Run the following command to purge your tickets:
 #> klist purge careful
 #14.22. Viewing Access Tokens.  Not working
-#tokensz /compute_tokensize /package:negotiate /target_server:host/dc01 /user:joe /domain:company.com /password:Senna2005! /dumpgroups
+#tokensz /compute_tokensize /package:negotiate /target_server:host/dc01 /user:joe /domain:company.com /password:password /dumpgroups
 #15.5. Viewing DNS Server Performance Statistics
 dnscmd dc01 /statistics # run from DC, pipeoutput to file
 #> sticks the output into a text file. If the text file already exists it deletes the text file and recreates it with the output you've just created.
