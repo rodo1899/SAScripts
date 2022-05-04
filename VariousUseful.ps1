@@ -60,7 +60,7 @@ $(foreach ($Server in $ServerName) {
                     }      
 }) | Out-File c:\scripts\$filename -Encoding ascii
 $username="IT@email.com" 
-$password=ConvertTo-SecureString "sa#jf832!!"-AsPlainText -Force 
+$password=ConvertTo-SecureString "P@ssw0rd!"-AsPlainText -Force 
 $mycredentials = New-Object System.Management.Automation.PSCredential ($username, $password) 
 Send-MailMessage -To rodalvarado1899@gmail.com -From $username -subject "Server Pings" -body "Please review attachment and Create a ticket if pings fail." -UseSsl -Port 587 `
 -SmtpServer smtp.gmail.com -Credential $mycredentials -Attachments $filename
